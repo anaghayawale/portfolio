@@ -12,9 +12,10 @@ class _NavBarState extends State<NavBar> {
   Widget desktopNavbar() {
     return Container(
       //color: Colors.deepOrange,
-      margin: const EdgeInsets.all(35), //symmetric(horizontal: 40, vertical: 20),
+      //margin: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
       height: 70,
       child: const Row(
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           NavButton(text: 'Home'),
           SizedBox(width: 15,),

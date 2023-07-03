@@ -22,7 +22,7 @@ class _NavButtonState extends State<NavButton> {
         foregroundColor: MaterialStateProperty.resolveWith<Color>(
           (Set<MaterialState> states) {
             if (states.contains(MaterialState.hovered)) {
-              return Colors.deepPurple; // Set the desired color for the hover state
+              return Colors.pink; // Set the desired color for the hover state
             }
             return Colors.black; // Set the default color
           },
